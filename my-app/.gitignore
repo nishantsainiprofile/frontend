@@ -1,0 +1,64 @@
+# Node.js specific files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Logs
+logs/
+*.log
+logs/*.log
+
+# Environment variables
+.env
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Build files
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Test reports
+*.out
+*.xml
+*.json
+*.tap
+.jest/
+
+# Miscellaneous
+*.bak
+*.old
+*.orig
+
+# TypeScript specific
+*.tsbuildinfo
+
+# MongoDB dumps (if using MongoDB)
+dump/
+
+# Generated documentation
+docs/
+
+# Ignore uploads or media directories (if applicable)
+uploads/
+public/uploads/
+static/uploads/

@@ -1,0 +1,160 @@
+.BuildBlog{
+        min-height:250px;
+        max-height:auto;
+        width:700px;
+        background-color:pink;
+        border-radius:5px;
+        border: 1px solid black;
+         margin-top:100px;
+       
+        
+
+         margin-left:0px;
+         z-index: 10;
+}
+
+
+ .SubmitBuildBlog{
+  height:25px;
+  width:100px;
+        
+  margin-left:300px;
+  border-radius:5px;    
+}
+
+
+
+.resizable-textarea {
+  width: 100%;  /* Make it flexible to container */
+  max-width: 700px;
+  min-width: 200px;
+  min-height: 70px;
+  max-height: 250px;
+  padding: 5px;
+  font-size: 16px;
+  transition: width 0.3s ease, height 0.3s ease; /* Smooth transition */
+}
+
+/* When input is focused, expand within limits */
+.resizable-textarea:focus {
+  max-width: 700px;  /* Adjust maximum width on focus */
+  min-height: 250px;  /* Ensure minimum height expands */
+}
+  
+
+/* Link container styling */
+.link-wrapper {
+    /* flex: 1;
+    margin-top:5px;
+    align-self: stretch;
+    background-color: pink; */
+  
+    
+     height:100px;
+    min-width: auto;
+    background-color:yellow; 
+    align-items: center;
+    margin-top: 24px;
+    margin-left:250px;
+     text-align:center;
+     justify-content: space-around;
+     
+}
+       
+     
+
+/* Link styling */
+.Linkto a  {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+    padding: 5px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect for the links */
+.Linkto a:hover {
+    color: white;
+}
+
+/* Div for Home link */
+.hover-effect {
+    display: block;
+    position: absolute;
+    top: 50px; /* Positioned just below the links */
+    margin-left:    -250px;
+    background-color:  lightcyan;
+    width: 400px;
+    height: 100px;
+    padding: 10px;
+    border-radius:1px;
+}
+
+/* Div for PoliticsBlog link */
+.politicsHover {
+    display: block;
+    position: absolute;
+    top: 50px; /* Positioned just below the links */
+    margin-left: 100px; /* Adjust to match the location of the PoliticsBlog link */
+    background-color: lightcyan;
+    width: 500px;
+    height: 100px;
+    padding: 50px;
+    border-radius:1px   
+}
+
+/*   this is DropDown Blog Select  */                                        
+/* Style the dropdown container */
+.dropdown-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  margin-Left:250px;
+}
+
+/* Style the label */
+.dropdown-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Style the dropdown (select element) */
+.dropdown {
+  padding: 8px 12px;
+  font-size: 16px;
+  color: #333;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px; /* Control the width */
+}
+
+/* On focus (when the user clicks the dropdown) */
+.dropdown:focus {
+  border-color: #007BFF; /* Change border color on focus */
+  outline: none; /* Remove the default browser outline */
+}
+
+/* Style the options (they inherit the style from select) */
+.dropdown option {
+  padding: 10px;
+  font-size: 14px;
+}
+
+/* Add hover effect for better user experience */
+.dropdown:hover {
+  background-color: #eaeaea;
+}
+
+/* Make the select box wider on hover/focus (optional) */
+.dropdown:active,
+.dropdown:focus {
+  width: 220px;
+}
+
+
+
+
