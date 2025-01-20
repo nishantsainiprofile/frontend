@@ -61,7 +61,7 @@ const Dashboard = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(true);
   // const Navigate  = useNavigate()
   const toggleSidebar = () => {
-    setSidebarOpen(!isSidebarOpen);
+    setSidebarOpen(!isSidebarOpen);  
   };
        
 
